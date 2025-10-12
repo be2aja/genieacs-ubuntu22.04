@@ -1,11 +1,21 @@
-# Download scripts
-wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/install-genieacs.sh
+# ONE COMMAND INSTALL
+curl -sSL https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/deploy.sh | sudo bash
 
-wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/restore-genieacs-data.sh
+# Manual 
+1. install genieacs
 
-# Make executable and run
-chmod +x *.sh
+    wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/install-genieacs.sh
+   
+    chmod +x *.sh
+    
+    sudo ./install-genieacs.sh
 
-sudo ./install-genieacs.sh
+    
 
-sudo ./restore-genieacs-data.sh
+3. restore data
+
+     wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/restore-genieacs-data.sh
+
+     chmod +x *.sh
+    
+      sudo ./restore-genieacs-data.sh
