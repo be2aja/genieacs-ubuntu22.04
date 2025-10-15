@@ -20,7 +20,7 @@ curl -sSL https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/dep
     
       sudo ./restore-genieacs-data.sh
 
-     native or docker wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/restore-genieacs.sh
+     native or docker wget https://raw.githubusercontent.com/be2aja/genieacs-ubuntu22.04/main/restore_genieacs.sh
 
      chmod +x *.sh
     
